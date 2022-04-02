@@ -21,9 +21,8 @@ def processing(image,model):
   res=model.predict(image_dims)
   result=np.argmax(res)
   return result
-lottie_coding = load_lottiefile("girl-cycling-in-autumn.json")
-st.title('Agri-EI 🍀')
-st.markdown('**Disease Prediction for plants:-**')
+
+st.title('Pneumonia Detection using Deep Learning')
 st.text('Made by Rahul Jha')
 
 st.text('         ')
